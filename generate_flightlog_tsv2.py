@@ -42,6 +42,8 @@ for image_file in image_files:
         "TIMESTAMP": datetime.strptime(timestamp_str, "%Y%m%dT%H%M%S")
     })
 
+# meaningless change
+
 # Step 4: Compare timestamps and estimate locations
 matches = 0
 reference_depth = 0  # Mean sea level
